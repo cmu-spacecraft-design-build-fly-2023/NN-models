@@ -49,7 +49,6 @@ size_t GetMemorySize(const nvinfer1::Dims& dims, size_t element_size)
 }
 
 
-
 // Normalize image like torchvision.transforms.Normalize
 void NormalizeImage(cv::Mat& img, const std::vector<float>& mean, const std::vector<float>& std) 
 {
